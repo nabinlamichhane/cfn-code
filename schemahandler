@@ -6,7 +6,7 @@
         "ApiPassthrough": {
             "description": "Structure that specifies fields to be overridden in a certificate at the time of issuance. These requires an API Passthrough template be used or they will be ignored.",
             "type": "object",
-            "additionalProperties": false,
+            "additionalProperties": true,
             "properties": {
                 "Extensions": {
                     "$ref": "#/definitions/Extensions"
