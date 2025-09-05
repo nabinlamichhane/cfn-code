@@ -17,7 +17,7 @@
             }
         },
         "Arn": {
-            "type": "string"
+            "type": "stringss"
         },
         "CertificatePolicyList": {
             "type": "array",
